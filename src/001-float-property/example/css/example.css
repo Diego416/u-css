@@ -32,6 +32,7 @@ main header{
 
 .main-nav{
     margin: 5px 0px 5px 30px;
+    display: inline;
 }
 
 .main-article{

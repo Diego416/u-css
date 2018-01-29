@@ -1,0 +1,64 @@
+/*
+ * Practice : Float Property
+ * Version: 1
+ * By: xxx
+ */
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.wrap{
+    background-color: #CFCDCD;
+    margin: 0% 10% 0% 10%;
+}
+
+main header{
+    background-color: #E5E1E1;
+    padding: 1px 0px 1px 10px;
+}
+
+.main-nav{
+    margin: 5px 0px 5px 30px;
+}
+
+.main-article{
+    background-color: #C7C7C7;
+    padding: 20px;
+    width: 70%;
+}
+
+.article-image{
+    margin: 10px;
+}
+
+.side-bar{
+    background-color: #E5E1E1;
+    padding: 20px;
+    width: 20%;
+}
+
+.search{
+    width: 100%;
+}
+
+.gallery{
+    background-color: #F0EDED;
+    padding: 20px;
+}
+
+.gallery-items{
+    margin: 0px 10px 10px 0px;
+}

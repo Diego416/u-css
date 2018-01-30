@@ -3,3 +3,28 @@
  * Version: 1
  * By: xxx
  */
+ *{
+    margin:0;
+    padding:0;
+ }
+
+ .content-box { 
+    box-sizing: content-box; 
+  }
+  .border-box { 
+    box-sizing: border-box; 
+  }
+
+ .box{
+    width: 1000px;
+    height: 80px;
+    margin: 15px;
+    padding: 15px;
+    border: 5px solid #D24F2E;
+ }
+
+ .container{
+     background-color: #D8D8D8;
+     padding: 20px;
+     margin-bottom: 50px;
+ }

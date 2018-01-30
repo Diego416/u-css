@@ -3,3 +3,71 @@
  * Version: 1
  * By: xxx
  */
+ *{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 5px 0px 5px 30px;
+    display: inline;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.nav{
+    background-color: #C3C3C3;
+    padding: 10px 0px 10px 0px;
+}
+
+.main-content{
+    width: 50%;
+    display: inline-block;
+    padding: 30px;
+}
+
+.side-bar{
+    display: inline;
+}
+
+.container{
+    margin: 10px 10% 0px 10%;
+    padding: 1px 10px 0px 10px;
+    background-color: #EEEEEE;
+    overflow: hidden;
+}
+
+.table{
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+    background-color: #C3C3C3;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.box{
+    padding: 5px;
+    margin: 0px 10px 10px 0px;
+    border: 1px solid red;
+    width: 31%;
+}

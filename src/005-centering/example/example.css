@@ -3,3 +3,126 @@
  * Version: 1
  * By: xxx
  */
+*{
+    margin:0;
+    padding:0;
+}
+
+h4{
+    background-color: #BCBABA;
+    padding: 5px;
+}
+
+.centered-text{
+    text-align: center;
+}
+
+ .container{
+     max-width: 1200px;
+     margin: auto;
+     background-color: #E3E3E3;
+     padding: 1px 10px 10px 10px;
+ }
+
+ .nav{
+     display: flex;
+     justify-content: center;
+     background-color: #BCBABA;
+     padding: 5px;
+ }
+
+ .nav-item{
+     margin: 0px 20px;
+ }
+
+ .centered-container{
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .centered-element{
+    background-color: #BCBABA;
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: 0px 5px;
+ }
+
+ .centered-container-flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .centered-element-flex{
+    background-color: #BCBABA;
+    width: 20%;
+    padding: 20px;
+    margin: 0px 5px;
+ }
+
+ .center-height{
+    background-color: #BCBABA;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 20px;
+    padding-left: 10px;
+ }
+
+ .center-multiple-lines{
+    background-color: #BCBABA;
+    margin-top: 20px;
+    width: 150px;
+    height: 250px;
+    line-height: 250px;
+    padding: 0px 10px;
+ }
+
+ .center-multiple-lines p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.center-multiple-lines-flex{
+    background-color: #BCBABA;
+    margin-top: 20px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.center-block-container{
+    background-color: #BCBABA;
+    margin-top: 20px;
+    height: 300px;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.center-block-element{
+    background-color: #6D6D6D;
+    color: white;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.center-no-height-container{
+    background-color: #BCBABA;
+    margin-top: 20px;
+    padding: 0px 20px;
+    position: relative;
+    height: 300px;
+}
+
+.center-no-height-element{
+    background-color: #6D6D6D;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

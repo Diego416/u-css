@@ -3,3 +3,79 @@
  * Version: 1
  * By: xxx
  */
+ 
+ *{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+hr{
+    background-color: #E65C49;
+}
+
+.page-content{
+	padding: 0px;
+}
+
+.container{
+    background-color: #BEEEFF;
+	padding: 50px 70px;
+    height: 100%;
+    font-family: Helvetica;
+}
+
+.main{
+    background-color: #6DCBED;
+    color: white;
+    padding: 50px 35% 50px 50px;
+    font-family: Helvetica;
+}
+
+.square{
+    background-color: #E6F8FF;
+    color: initial;
+    padding: 25px 10px 10px 50px;
+    margin-left:-50px
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 25%;
+}
+
+.side-list{
+    background-color: #FFFE87;
+    position: absolute;
+    top: 15%;
+    right: 70px;
+    height: 500px;
+    width: 25%;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 425px) {
+    
+    .main{
+        
+    }
+    
+    .square{
+        
+    }
+    
+    .side-list{
+        
+    }
+    
+    .dark{
+        display: none;
+    }
+}
